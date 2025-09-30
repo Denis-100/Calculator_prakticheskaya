@@ -18,7 +18,7 @@ class Calculator:
     # Получение данных от пользователя
     def get_input(self):
         self.a = int(input("Введите 1-е число: "))
-        self.b = int(input("Введите 1-е число: "))
+        self.b = int(input("Введите 2-е число: "))
         self.choise = input("Выберите операция: + = * /: ")
         self.start_calc()
     
