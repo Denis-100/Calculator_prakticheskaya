@@ -33,6 +33,7 @@ class Calculator:
                 self.otvet = self.proiz()
             case "/":
                 self.otvet = self.delenie()
+        
         self.print_otvet()
     
     # Функция сложения
